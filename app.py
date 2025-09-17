@@ -3,14 +3,11 @@ import sqlite3
 
 app = Flask(__name__)
 #123
-<<<<<<< HEAD
 #098
 #abc
 #deff
 #ghi
-=======
-
->>>>>>> 604bb51 (e?)
+#123
 @app.route('/', methods=['GET', 'POST'])
 def index():
 
