@@ -2,13 +2,20 @@ from flask import Flask, render_template, request, redirect, url_for
 import sqlite3
 
 app = Flask(__name__)
-#aa branch
 #123
+<<<<<<< HEAD
+<<<<<<< HEAD
 #098
 #abc
 #deff
 #ghi
+=======
+
+>>>>>>> 604bb51 (e?)
+=======
 #123
+
+>>>>>>> 01fdd69 (f?)
 @app.route('/', methods=['GET', 'POST'])
 def index():
 
@@ -46,6 +53,3 @@ def delete_entry(id):
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0", port=5000)
-
-
-##bbbbbb
